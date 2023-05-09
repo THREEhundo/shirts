@@ -16,7 +16,7 @@ const Shirt = () => {
 
 	// Applies color smoothly with easing
 	useFrame((state, delta) =>
-		easing.dampC(materials.lamber1.color, snap.color, 0.25, delta)
+		easing.dampC(materials.lambert1.color, snap.color, 0.25, delta)
 	)
 
 	// Shirt will at times not update
