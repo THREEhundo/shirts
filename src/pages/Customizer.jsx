@@ -74,7 +74,6 @@ const Customizer = () => {
 					prompt
 				})
 			})
-			console.log(response)
 			const data = await response.json()
 
 			handleDecals(type, `data:image/png;base64,${data.photo}`)
